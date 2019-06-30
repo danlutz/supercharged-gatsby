@@ -1,9 +1,13 @@
 {
   "name": "supercharged-gatsby",
   "version": "1.0.0",
-  "description": "",
+  "description": "Makes your developer experience great again",
   "author": "Daniel Lutz <daniel-lutz@live.at>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danlutz/supercharged-gatsby.git"
+  },
   "scripts": {
     "clean": "rimraf .cache public",
     "build": "npm run clean && npm run lambda-build && gatsby build",
