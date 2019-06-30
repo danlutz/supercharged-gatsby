@@ -11,7 +11,7 @@
     "lambda-build": "netlify-lambda build lambda/src",
     "develop": "npm run clean && concurrently --kill-others \"npm run lambda-serve\" \"gatsby develop\"",
     "start": "npm run develop",
-    "lint": "eslint --ext .js,.ts,.tsx src",
+    "lint": "eslint --ext .js,.ts,.tsx src lambda/src",
     "prettier": "prettier \"**/*.+(js|jsx|json|yml|yaml|html|css|less|scss|ts|tsx|md|mdx|graphql|vue|py|java|php)\"",
     "format": "npm run prettier -- --write",
     "validate": "npm run lint && npm run prettier -- --list-different",
