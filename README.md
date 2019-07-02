@@ -2,6 +2,8 @@
 
 Makes your developer experience great again
 
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/danlutz/supercharged-gatsby&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+
 ## Typescript
 
 - Full Typescript support
