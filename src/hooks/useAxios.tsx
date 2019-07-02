@@ -35,7 +35,7 @@ const reducer = (state = {}, action: ReducerAction) => {
 
 const useAxios = (
   initialUrl = '',
-  initialAxiosOptions: AxiosRequestConfig,
+  initialAxiosOptions: AxiosRequestConfig = {},
   initialData = null,
 ) => {
   const [url, setUrl] = useState(initialUrl)
