@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/camelcase */
 import blogPost from './collections/blogPost'
 
-const domain = 'https://example.com'
+const domain = process.env.GATSBY_ORIGIN || 'localhost:8000'
 
 const config = {
   load_config_file: false,
