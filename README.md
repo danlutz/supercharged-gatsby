@@ -1,5 +1,7 @@
 # Superpowered Gatbsy
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/456b9175-04a9-462f-bfba-a6f973283cf1/deploy-status)](https://app.netlify.com/sites/supercharged-gatsby/deploys)
+
 Makes your developer experience great again
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/danlutz/supercharged-gatsby&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
