@@ -2,7 +2,8 @@ import * as React from 'react'
 import Helmet from 'react-helmet'
 
 import useSiteMetadata from '../hooks/useSiteMetadata'
-import useOrigin from '../hooks/useOrigin'
+
+const { GATSBY_ORIGIN } = process.env
 
 const SEO = ({
   title,
@@ -71,11 +72,8 @@ export default SEO
 
 export const SEODefaults = () => {
   const { title, description, language, locale } = useSiteMetadata()
-  const { host, port } = useOrigin()
 
-  const domain =
-    host === 'localhost' ? `http://${host}:${port}` : `https://${host}`
-  const logoUrl = `${domain}/favicon.png`
+  const logoUrl = `${GATSBY_ORIGIN || 'localhost:8000'}/favicon.png`
 
   return (
     <Helmet>
