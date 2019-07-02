@@ -73,4 +73,4 @@ yarn-error.log
 .vscode
 
 # Compiled lambda functions
-lambda/build/*
+lambda/build
