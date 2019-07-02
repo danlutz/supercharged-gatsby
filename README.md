@@ -1,6 +1,6 @@
-# Superpowered Gatbsy
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/456b9175-04a9-462f-bfba-a6f973283cf1/deploy-status)](https://app.netlify.com/sites/supercharged-gatsby/deploys)
+
+# Superpowered Gatbsy
 
 Makes your developer experience great again
 
