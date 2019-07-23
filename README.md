@@ -51,6 +51,6 @@ Makes your developer experience great again
 
 The following environment variables are required:
 
-`GATSBY_ORIGIN`: Domain of host, including protocol
-`GATSBY_CLOUDINARY_CLOUD_NAME`: Cloudinary cloud name
-`GATSBY_CLOUDINARY_CLOUD_KEY`: Cloudinary API key
+- `GATSBY_ORIGIN`: Domain of host, including protocol
+- `GATSBY_CLOUDINARY_CLOUD_NAME`: Cloudinary cloud name
+- `GATSBY_CLOUDINARY_CLOUD_KEY`: Cloudinary API key
