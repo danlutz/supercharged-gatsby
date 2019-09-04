@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-object-literal-type-assertion */
-
 import { useState, useEffect, useReducer } from 'react'
 import axios, { AxiosRequestConfig } from 'axios'
 

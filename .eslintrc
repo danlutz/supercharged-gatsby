@@ -1,7 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2019,
     "ecmaFeatures": {
       "jsx": true
     },
@@ -15,6 +15,7 @@
   },
   "extends": [
     "eslint:recommended",
+    "plugin:jest/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:jsx-a11y/recommended",
@@ -22,7 +23,7 @@
     "prettier",
     "prettier/@typescript-eslint"
   ],
-  "plugins": ["jsx-a11y", "react-hooks", "@typescript-eslint"],
+  "plugins": ["jsx-a11y", "react-hooks", "@typescript-eslint", "jest"],
   "rules": {
     "no-console": [
       "error",

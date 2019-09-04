@@ -27,10 +27,7 @@ export const useNumberInputValue = (initialValue: string) => {
 
 const defaultFormatter = (value: string) => value
 
-const useInputValue = (
-  initialValue: string = '',
-  formatter = defaultFormatter,
-) => {
+const useInputValue = (initialValue = '', formatter = defaultFormatter) => {
   const [value, setValue] = useState(initialValue)
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) =>
