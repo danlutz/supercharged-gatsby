@@ -6,7 +6,8 @@
     "target": "esnext",
     "jsx": "react",
     "lib": ["dom", "dom.iterable", "es2015", "es2017", "es2018", "esnext"],
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": ["./src/**/*"]
 }

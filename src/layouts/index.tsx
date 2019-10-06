@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { CloudinaryContext } from 'cloudinary-react'
 
 import { SEODefaults } from '../components/SEO'
